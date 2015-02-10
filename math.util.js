@@ -4,10 +4,11 @@
         return Math.floor(a/b);
     }
 
-    math.digits = function(n){
-        var q = math.div(n, 10);
+    math.digits = function(n, b){
+        var b = b || 10;
+        var q = math.div(n, b);
         if (q > 0){
-            return math.digits(math.div(n, 10)).concat([n % 10]);
+            return math.digits(math.div(n, b), b).concat([n % b]);
         }
         return [n];
     };
