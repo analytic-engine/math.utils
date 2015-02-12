@@ -2,7 +2,7 @@
   "name": "math.util",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "Tidbits of mathematical utlity",
+  "description": "Tidbits of mathematical utility",
   "main": "math.util.js",
   "ignore": [
     "**/.*",
