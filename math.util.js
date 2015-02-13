@@ -1,5 +1,5 @@
 ;(function(math, undefined){
-    /* Tidbits of mathematical utlity */
+    /* Tidbits of mathematical utility */
     math.div = function(a,b){
         return Math.floor(a/b);
     }
